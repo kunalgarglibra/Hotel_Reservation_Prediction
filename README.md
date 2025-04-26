@@ -66,6 +66,9 @@ Models compared based on key metrics:
 - LightGBM (LGBM)
 - XGBoost (XGB)
 
+<img src="images/ModelChoosing.png" alt="Comparing Models" width="500"/>
+  
+
 ✅ **Best Model**: `Random Forest Classifier`
 
 ### 6. **Hyperparameter Tuning**
@@ -97,17 +100,25 @@ Models compared based on key metrics:
 - Built using Flask to interact with the trained model.
 - Accepts user input and predicts if the booking will be canceled.
 
+  <img src="images/AppUI_GCRLink.png" alt="App UI" width="500"/>
+
 ---
 
 ## 🚀 CI/CD Deployment
 
 ### Containerization & Deployment Workflow:
 1. **Create virtual environment** using Jenkins pipeline.
-2. **Dockerize** the project.
-3. **Build Docker image** and push to **Google Cloud Container Registry (GCR)**.
-4. **Deploy image** to **Google Cloud Run** for seamless scalability.
+   
+   <img src="images/Jenkins_Container.png" alt="My Jenkins Container" width="500"/>
+   
+3. **Dockerize** the project.
+   
+5. **Build Docker image** and push to **Google Cloud Container Registry (GCR)**.
+   
+7. **Deploy image** to **Google Cloud Run** for seamless scalability.
 
-   <img src="images/model_comparison_chart.png" alt="My Jenkins Container" width="500"/>
+   
+   <img src="images/Jenkins_Container.png" alt="My Jenkins Container" width="500"/>
 
 ---
 
