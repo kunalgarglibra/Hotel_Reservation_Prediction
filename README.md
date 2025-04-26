@@ -111,14 +111,17 @@ Models compared based on key metrics:
    
    <img src="images/Jenkins_Container.png" alt="My Jenkins Container" width="500"/>
    
+   
 3. **Dockerize** the project.
    
 5. **Build Docker image** and push to **Google Cloud Container Registry (GCR)**.
    
-7. **Deploy image** to **Google Cloud Run** for seamless scalability.
-
+   <img src="images/Jenkins_Pipeline.png" alt="Jenkins Pipeline" width="500"/>
    
-   <img src="images/Jenkins_Container.png" alt="My Jenkins Container" width="500"/>
+7. **Deploy image** to **Google Cloud Run** for seamless scalability.
+  
+   <img src="images/GCR_Deployment.png" alt="My Jenkins Container" width="500"/>
+   <img src="images/ProjectImageGCR.png" alt="My Jenkins Container" width="500"/>
 
 ---
 
