@@ -78,6 +78,8 @@ Models compared based on key metrics:
   - `min_samples_leaf`
   - `min_samples_split`
   - `n_estimators`
+ 
+<img src="images/Best_Param.png" alt="Comparing Models" width="500"/>
 
 ### 7. **Model Training & Saving**
 - Final model trained and serialized using `joblib`.
@@ -124,6 +126,11 @@ Models compared based on key metrics:
    <img src="images/ProjectImageGCR.png" alt="My Jenkins Container" width="500"/>
 
 ---
+## 🛠️ Testing Application:
+
+  <img src="images/PredictionResultApp.png" alt="My Jenkins Container" width="500"/>
+
+
 
 ## 🛠️ Tech Stack
 
